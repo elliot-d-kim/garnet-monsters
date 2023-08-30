@@ -1,0 +1,77 @@
+# <-- streetlights-->
+entity streetLight 18,10 22,10
+
+# <-- TREES BEHIND PARRISH -->
+entity oak-tree 10,16 13,16 17,15 17,16
+entity oak-tree 22,15 22,16 26,16 29,16
+
+# <-- BUILDINGS -->
+entity parrish-hall 11,16
+
+# <-- TREES IN FRONT OF PARRISH -->
+entity oak-tree 10,21 13,21 17,21
+entity oak-tree 22,21 26,21 29,21
+entity row-blueFlower 15,22
+entity row-yellowFlower 24,22
+
+# <-- STREETLIGHTS -->
+entity streetLight 9,14 13,14
+entity streetLight 27,14 31,14
+entity streetLight 9,23 13,23 18,23
+entity streetLight 22,23 27,23 31,23
+
+# <-- PLAQUE -->
+entity plaque 22,27
+
+# <-- TREES -->
+entity oak-tree 0,0 2,0 0,1 2,1 0,2 2,2 0,3 2,3
+entity oak-tree 5,0 5,1 0,6 0,11 0,21 1,18 1,19
+entity oak-tree 15,0 15,1 15,2 15,3 15,4 15,5 15,6
+entity oak-tree -1,27 1,27 3,27 -1,28 1,28 3,28 -1,29 1,29 3,29
+entity short-oak-tree 6,6 2,6 2,22
+entity rock-1 1,13
+
+entity oak-tree 37,1 39,1
+entity oak-tree 38,2 40,2
+entity oak-tree 37,3 39,3
+entity oak-tree 40,4 39,5 40,6 39,7 40,8 39,9 40,10 39,11 40,12 39,13 40,14 39,15 40,16 39,17 40,18
+
+# <-- BUSH -->
+bush sweet 30,32 6,9 6,10 6,14 6,20 34,29 6,36 8,36 12,36 24,24 25,24 38,21 24,0 36,6 37,6 37,7 14,28 11,28 23,27 27,33
+bush sweet 31,34 32,28 35,2 35,3 33,0
+bush sour 26,4 7,9 7,10 6,15 6,19 34,33 7,36 9,36 13,36 15,24 16,24 37,17 36,22 29,0 34,18 34,19 8,4 8,5
+bush red 2,16 6,17 34,30 10,36 4,24 5,24 32,0 31,21 13,4
+bush blue 2,17 6,20 34,31 13,36 8,28 8,29 31,0 31,22
+
+# <-- FENCES -->
+entity fence-grass 8,27 9,27 10,27 11,27 12,27 13,27 14,27 15,27 16,27
+entity fence-grass 24,27 25,27 26,27 27,27 28,27 29,27 30,27 31,27 32,27
+
+# <-- TREES -->
+entity oak-tree 9,27 12,27 15,27
+entity oak-tree 24,27 27,27 30,27
+entity oak-tree 16,30 23,30 16,33 23,33 16,36 23,36
+entity oak-tree 38,30 37,33
+entity short-oak-tree 38,37
+
+# <-- FLOWERS -->
+entity wide-yellowFlower 18,30 18,33 18,36 22,30 22,33 22,36
+entity row-blueFlower 28,30 31,35
+entity row-yellowFlower 28,35 31,30
+
+# <-- CONNECTING MAPS -->
+connect 20,23 up parrishHome 20,15
+connect 20,15 down parrishHome 20,23
+connect 39,25 right arboretum 2,4
+connect 39,26 right arboretum 2,5
+
+connect 8,1 up woods 18,37
+connect 9,1 up woods 19,37
+connect 10,1 up woods 20,37
+connect 11,1 up woods 21,37
+connect 12,1 up woods 22,37
+connect 13,1 up woods 23,37
+
+# <-- MAP SETTINGS -->
+camera 4.5 4 35.5 35
+encounters 1,0.3 2,0.05 5,0.2 6,0.3 8,0.05 9,0.1

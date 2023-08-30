@@ -1,0 +1,19 @@
+This README describes tile maps.
+- They should be saved in PNG formats.
+- Each pixel represents a tile, determined by the pixel's color.
+- They should only use colors defined in src.util.tiles.CODES
+    - All pixels should be fully opaque (only the RBG values will be used).
+- The top left of the tile map is the (0, 0) position and each tile is 32x32 on-screen pixels.
+- Each tilemap should have a .meta file
+    - Each line in the meta file specifies a characteristic of the tile map
+    - Segments of the line are delineated by spaces, end of line comments can be used with "#"
+    - The accepted formats are:
+        - connect [source pos] [direction] [dest area] [dest pos]
+        - entity [type] (coords...)
+        - camera [min x] [min y] [max x] [max y]
+            - The mins and maxes are for the center of the camera
+            - To only show a rect(0, 0, wid, hei) use values of (4.5, 4, wid-5.5, hei-5)
+        - encounters [id],[prob]
+            - If this line exists, there should only be one and it should sum to one.
+        - bush [berryType] (coords...)
+            - Works the same as entity

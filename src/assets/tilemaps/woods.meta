@@ -1,0 +1,99 @@
+# <-- BUILDING -->
+entity greenhouse-red-2 3,25
+
+# <-- FENCES -->
+entity fence-left 1,4 1,5 1,6 1,7 1,8 1,9 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,25 1,26 1,27 1,28 1,29 1,30 1,31 1,32 1,33
+entity fence-grass-back 2,34 3,34 4,34 5,34 6,34
+entity fence-right 25,4 25,5 25,6
+
+entity fence-left 6,0 6,1 6,2
+entity fence-right 19,0 19,1
+entity fence-left 22,0 22,1
+
+# <-- TREES-TOP-SIDE -->
+entity oak-tree -1,-1 1,-1 5,-1 5,0 5,1
+entity oak-tree 11,-1 13,-1
+entity oak-tree 19,-1 21,-1 19,0 21,0
+bush red 15,0
+entity fence-bott
+
+# <-- TREES-LEFT-SIDE -->
+entity oak-tree 0,4 -1,5 0,6 -1,7 0,8 -1,9 0,10 -1,11 0,12 -1,13 0,14 -1,15 0,16 -1,17 0,18 -1,19 0,20 -1,21 0,22 -1,23 0,24 -1,25 0,26 -1,27 0,28 -1,29 0,30 -1,31 0,32 -1,33
+entity oak-tree 0,34 2,34 4,34
+entity oak-tree -1,35 1,35 3,35 5,35
+entity oak-tree 0,36 2,36 4,36
+entity oak-tree -1,37 1,37 3,37 5,37
+
+# <-- MIDDLE-ROW-TREES -->
+entity oak-tree 18,8 17,9 18,10 17,11 18,12 17,13 17,19 18,20 17,21 18,22 17,23 18,24
+entity rock-3 18,16
+#18,14 17,15 18,16 17,17 18,18
+
+# <-- RIGHT-ROW-TREES -->
+entity oak-tree 25,4 27,4 25,5 27,5
+entity oak-tree 26,6
+entity oak-tree 25,7 27,7
+entity oak-tree 26,8
+entity oak-tree 25,9 27,9
+entity oak-tree 26,10
+entity oak-tree 25,11 27,11
+entity oak-tree 26,12
+#!! entity oak-tree 25,13 27,13
+entity oak-tree 27,13
+entity oak-tree 26,14
+#!!! entity oak-tree 25,15 27,15
+entity oak-tree 27,15
+entity oak-tree 26,16
+#!!! entity oak-tree 25,17 27,17
+entity oak-tree 27,17
+entity oak-tree 26,18
+#!!! entity oak-tree 25,19 27,19
+entity oak-tree 27,19
+entity oak-tree 26,20
+entity oak-tree 25,21 27,21
+entity oak-tree 26,22
+entity oak-tree 25,23 27,23
+entity oak-tree 26,24
+entity oak-tree 25,25 27,25
+entity oak-tree 26,26
+entity oak-tree 25,27 27,27
+entity oak-tree 26,28
+entity oak-tree 25,29 27,29
+entity oak-tree 26,30
+entity oak-tree 25,31 27,31
+entity oak-tree 25,32 25,33 25,34 25,35 25,36 25,37 25,38 25,39 25,40
+
+# <-- BOTTOM-TREES -->
+entity oak-tree 8,35 10,35 10,37 12,37 10,38 12,38 10,39 12,39 10,40 12,40
+entity oak-tree 15,38 15,39
+entity rock-3 13,34
+
+# <-- CENTER DECOR -->
+entity short-oak-tree 3,13 10,13
+
+# <-- PIT DECOR -->
+entity plaque 19,27
+entity streetLight 24,3 13,3 4,3
+entity streetLight 20,26 15,26 11,26
+entity oak-tree 3,22 5,22, 7,22, 9,22
+entity row-blueFlower 3,9
+entity row-yellowFlower 9,9
+entity plant-pots 5,9 8,9
+
+# <-- BUSHES -->
+bush sweet 18,36 18,37 20,7 19,7 9,7 3,4 9,0 24,6 2,32 7,24 8,24 12,32 13,32 14,4
+bush sour 23,32 17,7 16,7 19,4 24,5 4,32 5,32 11,25
+bush blue 6,21 18,7 10,7 10,24 10,32 10,16
+bush red 7,21 26,13 15,7 2,25 11,24
+
+# <-- MAP SETTINGS -->
+camera 4.5 4 22.5 35
+
+connect 18,38 down parrishHome 8,2
+connect 19,38 down parrishHome 9,2
+connect 20,38 down parrishHome 10,2
+connect 21,38 down parrishHome 11,2
+connect 22,38 down parrishHome 12,2
+connect 23,38 down parrishHome 13,2
+
+encounters 1,0.25 2,0.1 4,0.1 6,0.2 7,0.1 9,0.2 10,0.05
