@@ -52,7 +52,6 @@ Don't forget to save your progress! Load your save file from the start screen wh
 - Visually captivating game world
 - Bag for collected berries
 - Unique player profile
-- Save and load progress
 
 <img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Player-profile.jpeg" height="500" />
 
