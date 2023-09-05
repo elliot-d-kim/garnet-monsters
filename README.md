@@ -34,15 +34,15 @@ The objective of _Garnet Monsters_ is to analyze and learn about all the endange
 
 Head into the tall grass to encounter animals and analyze them.
 
-![](README-resources/Animal-encounter.gif)
+<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Animal-encounter.gif" height="500" />
 
 Collect berries off bushes and use them throughout encounters for a better chance at a successful analysis.   
 
-![](README-resources/Pick-berries-2.gif)
+<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Pick-berries-2.gif" height="500" />
 
 Check out your analyzed animals in the Journal.
 
-![](README-resources/Journal-entry.jpeg)
+<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Journal-entry.jpeg" height="500" />
 
 Don't forget to save your progress! Load your save file from the start screen when you're back for more.
 
@@ -54,7 +54,7 @@ Don't forget to save your progress! Load your save file from the start screen wh
 - Unique player profile
 - Save and load progress
 
-![](README-resources/Player-profile.jpeg)
+<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Player-profile.jpeg" height="500" />
 
 
 ## Technologies Used
