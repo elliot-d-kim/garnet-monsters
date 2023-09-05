@@ -38,7 +38,7 @@ Head into the tall grass to encounter animals and analyze them.
 
 Collect berries off bushes and use them throughout encounters for a better chance at a successful analysis.   
 
-<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Pick-berries-2.gif" height="500" />
+<img src="https://github.com/elliot-d-kim/garnet-monsters/blob/main/README-resources/Pick-berries-2.gif" width="278" />
 
 Check out your analyzed animals in the Journal.
 
